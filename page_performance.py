@@ -25,7 +25,7 @@ def analyze(url):
         #"First Input Delay": lighthouse_data['first-input-delay']['displayValue']
     }
 
-
+st.write('---')
 st.title("Website Performance Analyzer :horse_racing:")
 
 url = st.text_input('Enter the URL of the website to analyze:')
