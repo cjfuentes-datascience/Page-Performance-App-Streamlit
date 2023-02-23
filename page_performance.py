@@ -4,7 +4,7 @@ import streamlit as st
 import random
 
 # Set the title of the browser tab
-st.set_page_config(page_title="Website Performance Analyzer :racing_car:")
+st.set_page_config(page_title="Website Performance Analyzer :racing_motorcycle:")
 
 quotes = [
     "I cannot wait to win this match, friend!",
@@ -56,7 +56,7 @@ def analyze(url):
     }
 
 # Set the title for the Streamlit web app
-st.title("Website Performance Analyzer :racing_car:")
+st.title("Website Performance Analyzer :racing_motorcycle:")
 
 # Get the URL of the website to analyze from the user
 url = st.text_input('Enter the URL of the website to analyze:')
