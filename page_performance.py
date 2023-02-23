@@ -21,7 +21,7 @@ def analyze(url):
         "Time to Interactive": lighthouse_data['interactive']['displayValue'],
         "Largest Contentful Paint": lighthouse_data['largest-contentful-paint']['displayValue'],
         "Cumulative Layout Shift": lighthouse_data['cumulative-layout-shift']['displayValue'],
-        "Total Blocking Time": lighthouse_data['total-blocking-time']['displayValue'],
+        "Total Blocking Time": lighthouse_data['total-blocking-time']['displayValue']
         #"First Input Delay": lighthouse_data['first-input-delay']['displayValue']
     }
 
