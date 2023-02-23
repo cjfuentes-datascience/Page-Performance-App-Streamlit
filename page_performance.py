@@ -56,7 +56,7 @@ def analyze(url):
     }
 
 # Set the title for the Streamlit web app
-st.title("Website Performance Analyzer :racing_motorcycle:")
+st.title("_Website Performance Analyzer_ :racing_motorcycle:")
 
 # Get the URL of the website to analyze from the user
 url = st.text_input('Enter the URL of the website to analyze:')
