@@ -4,7 +4,7 @@ import streamlit as st
 import random
 
 # Set the title of the browser tab
-st.set_page_config(page_title="Website Performance Analyzer :horse_racing:")
+st.set_page_config(page_title="Website Performance Analyzer :racing_car:")
 
 quotes = [
     "I cannot wait to win this match, friend!",
