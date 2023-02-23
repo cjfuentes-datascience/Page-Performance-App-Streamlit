@@ -26,7 +26,7 @@ def analyze(url):
     }
 
 
-st.title("Website Performance Analyzer :earth_americas:")
+st.title("Website Performance Analyzer :horse_racing:")
 
 url = st.text_input('Enter the URL of the website to analyze:')
 
