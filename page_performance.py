@@ -33,18 +33,20 @@ st.title("Website Performance Analyzer :horse_racing:")
 
 # Get the URL of the website to analyze from the user
 url = st.text_input('Enter the URL of the website to analyze:')
-st.write('---')
+#st.write('---')
 
 # If the URL is provided, analyze the website performance and display the results
 if url:
+    st.write('---')
     results = analyze(url)
     st.subheader('Website Performance Metrics:')
     for key, value in results.items():
         st.write(f'{key}: {value}')
+    st.write('---')
+
 else:
     # If the URL is not provided, don't display any results
     #st.write('Enter a URL to analyze website performance')
     pass
 
-st.write('---')
 st.text("That's all folks!")
