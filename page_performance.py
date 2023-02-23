@@ -42,3 +42,5 @@ else:
     # If the URL is not provided, don't display any results
     #st.write('Enter a URL to analyze website performance')
     pass
+
+st.text("That's all folks!")
