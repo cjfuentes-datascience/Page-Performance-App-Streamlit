@@ -2,6 +2,9 @@ import requests
 import json
 import streamlit as st
 
+# Set the title of the browser tab
+st.set_page_config(page_title="Website Performance Analyzer :horse_racing:")
+
 # Define a function to analyze the website performance
 def analyze(url):
     # Set up the API request URL using the provided website URL
