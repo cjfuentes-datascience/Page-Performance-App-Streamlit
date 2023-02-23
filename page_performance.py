@@ -43,4 +43,5 @@ else:
     #st.write('Enter a URL to analyze website performance')
     pass
 
+st.write('---')
 st.text("That's all folks!")
