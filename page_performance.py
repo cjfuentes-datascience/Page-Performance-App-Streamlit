@@ -37,8 +37,8 @@ url = st.text_input('Enter the URL of the website to analyze:')
 
 # If the URL is provided, analyze the website performance and display the results
 if url:
-    st.write('---')
     results = analyze(url)
+    st.write('---')
     st.subheader('Website Performance Metrics:')
     for key, value in results.items():
         st.write(f'{key}: {value}')
