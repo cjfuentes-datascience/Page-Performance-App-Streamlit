@@ -43,7 +43,7 @@ if url:
     for key, value in results.items():
         st.write(f'{key}: {value}')
     st.write('---')
-    st.text("I cannot wait to win this match, friend!")
+    st.text("I was created for this! ..I think.")
 else:
     # If the URL is not provided, don't display any results
     #st.write('Enter a URL to analyze website performance')
