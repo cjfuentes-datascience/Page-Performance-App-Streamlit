@@ -22,7 +22,7 @@ def analyze(url):
         "Largest Contentful Paint": lighthouse_data['largest-contentful-paint']['displayValue'],
         "Cumulative Layout Shift": lighthouse_data['cumulative-layout-shift']['displayValue'],
         "Total Blocking Time": lighthouse_data['total-blocking-time']['displayValue'],
-        "First Input Delay": lighthouse_data['first-input-delay']['displayValue']
+        #"First Input Delay": lighthouse_data['first-input-delay']['displayValue']
     }
 
 
